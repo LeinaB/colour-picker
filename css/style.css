@@ -1,0 +1,64 @@
+html { 
+    background: url("/spots.png") repeat center center fixed; 
+    -webkit-background-size: repeat;
+    -moz-background-size: repeat;
+    -o-background-size: repeat;
+    background-size: repeat;
+}
+
+body {
+    color: black;
+    background-color: transparent;
+}
+
+h1#app-name {
+    font-size:84px;
+    color: black;
+    
+}
+
+p.description {
+    text-align: center;
+}
+
+
+
+button#refreshbtn {
+    display:none;
+}
+
+img#selected-img{
+    width:150px;
+    height:150px;
+    padding:20px;
+    display:none;
+    margin: 0 auto;
+}
+
+h2#page-header {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+body #page-container {
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn-wrapper {
+    padding: 20px 0;
+}
+
+input#my-file-selector {
+    display:none;
+}
+
+#musicplayer{
+    padding:20px;
+    display:none;
+}
+
+h4#track-name {
+    display:none;
+}
